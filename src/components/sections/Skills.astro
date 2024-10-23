@@ -1,0 +1,42 @@
+---
+import Section from '@/components/Section.astro'
+
+import { skills as skillsSpanish } from 'cv-spanish.json';
+import { skills as skillsEnglish } from 'cv-english.json';
+
+export interface Props {
+	language: string;
+}
+
+const { language } = Astro.props;
+
+const skills = language === 'spanish' ? skillsSpanish : skillsEnglish
+---
+
+<Section title={language === 'spanish' ? "Habilidades" : "Skills"}>
+    <ul>
+        {skills.map(({ name }) => (
+            <li>
+                <span>{name}</span>
+            </li>
+        ))}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    li {
+        background-color: #eee;
+        padding: 0.2rem 0.6rem;
+        border-radius: 6px;
+        color: #000;
+        font-size: 0.8rem;
+        font-weight: 500;
+    
+    }
+</style>

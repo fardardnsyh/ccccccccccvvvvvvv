@@ -1,0 +1,280 @@
+{
+    "basics": {
+        "name": "Raul Jimenez",
+        "label": "Creative and Committed Full Stack Engineer",
+        "image": "/IMG_5668.jpeg",
+        "email": "rjbarco@gmail.com",
+        "phone": "+34 666 183 566",
+        "url": "https://rauljimenez.io",
+        "summary": "Passionate about new technologies, I enjoy creating innovative solutions that improve people's lives and contribute to a better world. With a constant focus on learning and updating my knowledge, I am seeking a challenging project where I can apply my experience and collaborate with an enthusiastic and talented team.\n\nI have experience in developing projects using Python and JavaScript, with strong proficiency in React and Node.js, as well as advanced skills in HTML and CSS. My database competencies cover both relational systems like MySQL and non-relational systems like MongoDB.\n\nCurrently, I am improving my English communication skills, especially speaking, with a B2-C1 level, which allows me to interact fluently and work with multicultural teams.\n\nI am familiar with Agile and SCRUM methodologies, implemented through platforms like Jira and Trello, enabling me to integrate and contribute effectively to agile work environments. Additionally, I am a strong advocate of Test Driven Development (TDD), using Jest and more recently Vitest, to ensure code quality and reliability.\n\nMy goal is to be part of a dynamic team where I can continue learning and contribute with my knowledge and enthusiasm, creating solutions that make a difference.",
+        "location": {
+            "address": "Calle del Labrador, 6, Portal 7, Ático A",
+            "postalCode": "28600",
+            "city": "Navalcarnero",
+            "countryCode": "Spain",
+            "region": "Madrid"
+        },
+        "profiles": [{
+            "network": "X",
+            "username": "rul_ex",
+            "url": "https://x.com/rul_ex"
+        },
+        {
+            "network": "GitHub",
+            "username": "veregorn",
+            "url": "https://github.com/veregorn"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "rjbarco",
+            "url": "https://www.linkedin.com/in/rjbarco"
+        }]
+    },
+    "work": [
+        {
+            "name": "Guiagas Asistencia SL",
+            "position": "Partner and Chief Operating Officer (COO)",
+            "url": "",
+            "startDate": "2007-12-09",
+            "endDate": "2022-06-30",
+            "summary": "For nearly 15 years, I co-founded and managed a company in the energy sector, where I developed and honed a wide range of managerial and technical skills. My main responsibilities included:\n\nSoftware Development: Designed and developed a custom CRM from scratch (PHP + MySQL) to optimize company management.\n\nBusiness Management: Coordinated and managed small teams, ensuring efficient operation and meeting strategic company goals.\n\nTechnical Operations: Performed specialized technical work in gas equipment repair and maintenance, ensuring high standards of quality and safety.\n\nBusiness Growth: Actively participated in the planning and execution of strategies for company growth and expansion, leading to its successful sale in 2022."
+        },
+        {
+            "name": "Atos Spain SA",
+            "position": "Backend Developer at Banco Santander",
+            "url": "https://atos.net",
+            "startDate": "2005-09-12",
+            "endDate": "2007-01-09",
+            "summary": "As a Backend Developer at Banco Santander, I was an integral part of the team responsible for implementing and maintaining currency management systems for various transactions. My responsibilities included:\n\nSystem Development and Maintenance: Worked on the implementation and enhancement of currency management systems using the bank's proprietary platform, Sigom. Ensured systems were efficient, secure, and compliant with international regulations.\n\nSystem Integration: Collaborated on integrating currency management systems with other internal and external platforms, ensuring smooth and efficient interoperability.\n\nProcess Optimization: Analyzed and optimized backend processes to improve the performance and reliability of financial transactions.\n\nInterdepartmental Collaboration: Worked closely with other departments, including front-end, QA, and operations, to ensure project cohesion and success.\n\nProblem Solving: Addressed and resolved complex technical issues, providing effective and swift solutions to ensure service continuity."
+        }
+    ],
+    "volunteer": [{
+        "organization": "Organization",
+        "position": "Volunteer",
+        "url": "https://organization.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Description…",
+        "highlights": [
+            "Awarded 'Volunteer of the Month'"
+        ]
+    }],
+    "education": [
+        {
+            "institution": "OpenCV University",
+            "summary": "OpenCV Bootcamp on Computer Vision",
+            "startDate": "2024-02-01",
+            "endDate": "2024-02-07"
+        },
+        {
+            "institution": "Universidad Rey Juan Carlos de Madrid",
+            "summary": "Computer Engineering",
+            "startDate": "2003-09-01",
+            "endDate": "2005-06-30"
+        },
+        {
+            "institution": "Universidad Rey Juan Carlos de Madrid",
+            "summary": "Diploma in Technical Computer Engineering",
+            "startDate": "2000-09-01",
+            "endDate": "2003-06-01"
+        },
+        {
+            "institution": "Servicio Regional de Empleo de la Comunidad de Madrid",
+            "summary": "Database Specialist Technician: Oracle + SQL",
+            "startDate": "2002-07-01",
+            "endDate": "2002-07-31"
+        }
+    ],
+    "awards": [{
+        "title": "Award",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+    }],
+    "certificates": [{
+        "name": "Certificate",
+        "date": "2021-11-07",
+        "issuer": "Company",
+        "url": "https://certificate.com"
+    }],
+    "publications": [{
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "2014-10-01",
+        "url": "https://publication.com",
+        "summary": "Description…"
+    }],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "CSS",
+            "level": "Master",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Advanced",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Node.js",
+            "level": "Intermediate",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "React",
+            "level": "Intermediate",
+            "keywords": [
+                "Web Development",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Astro",
+            "level": "Intermediate",
+            "keywords": [
+              "Desarrollo Web",
+              "Framework"
+            ]
+        },
+        {
+            "name": "Git",
+            "level": "Intermediate",
+            "keywords": [
+                "Tools"
+            ]
+        },
+        {
+            "name": "Python",
+            "level": "Advanced",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "level": "Intermediate",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Vitest",
+            "level": "Intermediate",
+            "keywords": [
+                "Tools",
+                "Testing"
+            ]
+        },
+        {
+            "name": "Jest",
+            "level": "Intermediate",
+            "keywords": [
+                "Tools",
+                "Testing"
+            ]
+        },
+        {
+            "name": "MongoDB",
+            "level": "Intermediate",
+            "keywords": [
+                "Web Development",
+                "Backend"
+            ]
+        },
+        {
+            "name": "Agile",
+            "level": "Intermediate",
+            "keywords": [
+                "Methodologies",
+                "SCRUM"
+            ]
+        },
+        {
+            "name": "Trello",
+            "level": "Intermediate",
+            "keywords": [
+                "Methodologies",
+                "SCRUM"
+            ]
+        },
+        {
+            "name": "Jira",
+            "level": "Intermediate",
+            "keywords": [
+                "Methodologies",
+                "SCRUM"
+            ]
+        },
+        {
+            "name": "English",
+            "level": "Intermediate",
+            "keywords": [
+                "Languages",
+                "Speaking"
+            ]
+        }
+    ],
+    "languages": [{
+        "language": "English",
+        "fluency": "Native speaker"
+    }],
+    "interests": [{
+        "name": "Wildlife",
+        "keywords": [
+            "Ferrets",
+            "Unicorns"
+        ]
+    }],
+    "references": [{
+        "name": "Jane Doe",
+        "reference": "Reference…"
+    }],
+    "projects": [
+        {
+            "name": "DevNews en Español",
+            "isActive": false,
+            "description": "'DevNews en Español' is a platform that collects the most important news of the day in the world of software development, summarizes and translates them using AI, and automatically publishes them on a blog. Additionally, it shares the titles of these news articles on LinkedIn, attracting users to read more on the blog.",
+            "highlights": [
+              "HTML", "CSS", "Javascript", "React", "Node.js", "MongoDB", "RESTful API", "JWT", "OpenAI API", "LinkedIn API", "Material UI", "Vercel"
+            ],
+            "url": "https://project-blog-api-client.vercel.app/"
+          },
+        {
+            "name": "JSON Resume",
+            "isActive": false,
+            "description": "A project created with Astro and JavaScript to generate a CV from a JSON format. With a minimalist and modern design, this project allows users to create their CV quickly and easily. Fully responsive. It makes use of 'Keyboard Manager' for keyboard access to functions.",
+            "highlights": [
+              "Astro", "Javascript", "HTML", "CSS", "Responsive Design", "JSON"
+            ],
+            "url": "https://grand-bombolone-08bc91.netlify.app/"
+        },
+        {
+            "name": "JEWM Shop",
+            "isActive": false,
+            "description": "A modern e-commerce with React on the Frontend. It makes extensive use of useState and useEffect to manage the application's state.",
+            "highlights": [
+                "React", "Javascript", "HTML", "CSS", "Responsive Design"
+            ],
+            "url": "https://top-shopping-cart-two.vercel.app"
+        }
+    ]
+}

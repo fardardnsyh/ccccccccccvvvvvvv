@@ -1,0 +1,72 @@
+---
+import Section from '@/components/Section.astro'
+
+import { education as educationSpanish } from 'cv-spanish.json';
+import { education as educationEnglish } from 'cv-english.json';
+
+export interface Props {
+	language: string;
+}
+
+const { language } = Astro.props;
+
+const education = language === 'spanish' ? educationSpanish : educationEnglish
+---
+
+<Section title={language === 'spanish' ? "Educación" : "Education"}>
+    <div class="page-section">
+        <ul>
+            {education.map(({ institution, summary, startDate, endDate }) => {
+                const starYear = new Date(startDate).getFullYear()
+                const endYear = endDate ? new Date(endDate).getFullYear() : 'Actual'
+                const years = `${starYear} - ${endYear}`
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>{institution}</h3>
+                                </div>
+                                <time>{years}</time>
+                            </header>
+                            <footer>
+                                <p>{summary}</p>
+                            </footer>
+                        </article>
+                    </li>
+                )
+            })}
+        </ul>
+    </div>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    time {
+        font-size: 0.85em;
+        color: #555;
+    }
+
+    @media print {
+        .page-section {
+            page-break-after: always;
+        }
+    }
+</style>

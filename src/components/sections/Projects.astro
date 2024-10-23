@@ -1,0 +1,103 @@
+---
+import Section from '@/components/Section.astro'
+
+import { projects as projectsSpanish } from 'cv-spanish.json';
+import { projects as projectsEnglish } from 'cv-english.json';
+
+export interface Props {
+	language: string;
+}
+
+const { language } = Astro.props;
+
+const projects = language === 'spanish' ? projectsSpanish : projectsEnglish
+---
+
+<Section title={language === 'spanish' ? "Proyectos" : "Projects"}>
+    <ul>
+        {projects.map(({ url, description, highlights, name, isActive }) => (
+            <li>
+                <article>
+                    <header>
+                        <h3>
+                            <a href={url} title={`Ver el proyecto ${name}`}>
+                                {name}
+                            </a>
+                            {isActive && <span>&bull;</span>}
+                        </h3>
+                        <p>{description}</p>
+                    </header>
+                    <footer>
+                        {highlights.map((highlight) => (
+                            <span>{highlight}</span>
+                        ))}
+                    </footer>
+                </article>
+            </li>
+        ))}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    article {
+        padding: 16px;
+        border: 1px solid #f2f2f2;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 16px;
+    }
+
+    article header {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        flex: 1; /* Para que el footer se quede abajo */
+    }
+
+    article header h3 span {
+        color: rgb(1, 169, 43);
+    }
+
+    article header a {
+        text-decoration: none;
+        color: #111;
+    }
+
+    article header a:hover {
+        text-decoration: underline;
+    }
+
+    article header h3 {
+        margin-botton: 4px;
+    }
+
+    article header p {
+        font-size: 0.75rem;
+        line-height: 1.2rem;
+        margin-bottom: 4px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        font-size: 0.6rem;
+    }
+
+    footer span {
+        background-color: #eee;
+        padding: 0.2rem 0.6rem;
+        border-radius: 6px;
+        color: #444;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+</style>
